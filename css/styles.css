@@ -1,5 +1,9 @@
-body {
-    color: black
-    background-color: whitesmoke,
-    font-family; 'Arial', normal;  
+#profile {
+    max-width: 400px;
+    max-height: 396px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: auto;
 }
