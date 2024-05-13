@@ -1,3 +1,10 @@
+body {
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;   
+}
+
 #profile {
     max-width: 400px;
     max-height: 396px;
@@ -7,3 +14,18 @@ img {
     width: 100%;
     height: auto;
 }
+/*grid layout*/
+main {
+    display: grid;  /* sets the display to grid on the surrounding div */
+    grid-template-columns: 50% 50%;  /* sets each column to 50% */
+  }
+  #bio-note {
+    grid-column: 2  ;  /* sets which column the text appears in */
+    grid-row: 1;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  #profile-image {
+    grid-column: 1;  /* sets which column the image appears in */
+    grid-row: 1;
+  }
